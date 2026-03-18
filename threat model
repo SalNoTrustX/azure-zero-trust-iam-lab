@@ -1,0 +1,31 @@
+## Threat Model
+
+### Risk 1: Account Compromise
+If a user account is compromised, an attacker could gain access to cloud resources.
+
+Mitigation:
+- Enforced MFA
+- Conditional Access policies
+- Sign-in risk detection
+
+### Risk 2: Excessive Permissions
+Users with unnecessary privileges increase the attack surface.
+
+Mitigation:
+- RBAC with least privilege
+- Group-based access control
+- Regular access reviews
+
+### Risk 3: Privileged Role Abuse
+Admin roles can be misused if always active.
+
+Mitigation:
+- PIM with just-in-time access
+- Approval-based activation
+- Audit logging
+
+### Risk 4: Unauthorized Access from Unknown Locations
+Attackers may attempt access from risky locations.
+
+Mitigation:
+- Conditional Access location-based policies
