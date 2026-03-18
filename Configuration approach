@@ -1,0 +1,7 @@
+## Configuration Approach
+
+All security controls in this lab were configured using the Azure Portal to reflect real-world enterprise environments.
+
+RBAC assignments were automated using PowerShell to demonstrate Infrastructure-as-Code practices.
+
+Conditional Access, MFA, and PIM were implemented through Microsoft Entra ID to enforce Zero Trust principles.
