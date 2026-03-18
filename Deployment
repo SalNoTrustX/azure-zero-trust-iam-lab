@@ -1,0 +1,7 @@
+## How to Deploy
+
+1. Clone the repository
+2. Run PowerShell scripts in the scripts/ folder
+3. Configure Conditional Access policies in Azure portal
+4. Assign RBAC roles to security groups
+5. Validate access using test accounts
